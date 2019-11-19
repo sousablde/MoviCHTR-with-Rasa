@@ -1,0 +1,32 @@
+{
+  "director": {
+    "precision": 0.9230769230769231,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.7058823529411765,
+    "support": 21
+  },
+  "movie_title": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 93
+  },
+  "micro avg": {
+    "precision": 0.9866666666666667,
+    "recall": 0.6491228070175439,
+    "f1-score": 0.7830687830687831,
+    "support": 114
+  },
+  "macro avg": {
+    "precision": 0.9615384615384616,
+    "recall": 0.6190476190476191,
+    "f1-score": 0.7529411764705882,
+    "support": 114
+  },
+  "weighted avg": {
+    "precision": 0.9858299595141701,
+    "recall": 0.6491228070175439,
+    "f1-score": 0.7826625386996905,
+    "support": 114
+  }
+}

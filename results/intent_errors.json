@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Bye",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5199720859527588
+    }
+  },
+  {
+    "text": "give me movies by Brad Pitt",
+    "intent": "movie_search_by_actor",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.8597437143325806
+    }
+  }
+]

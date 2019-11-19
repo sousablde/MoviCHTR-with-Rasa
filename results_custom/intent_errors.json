@@ -1,0 +1,130 @@
+[
+  {
+    "text": "what is the release of Terminator: Dark Fate",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.5886651405280534
+    }
+  },
+  {
+    "text": "give me the release for the favourite.",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.5387021508949728
+    }
+  },
+  {
+    "text": "give me the overview for The Art of Self Defense",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.5470612694631192
+    }
+  },
+  {
+    "text": "out date for black panther",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.3565395839092265
+    }
+  },
+  {
+    "text": "release date for roma",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.6242237043193936
+    }
+  },
+  {
+    "text": "plot for skills matter",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "search_movie_actors",
+      "confidence": 0.3554562972218629
+    }
+  },
+  {
+    "text": "Starring in Spotlight",
+    "intent": "search_movie_actors",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.35976014897044556
+    }
+  },
+  {
+    "text": "What year did Pulp Fiction come out?",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.40331797352270604
+    }
+  },
+  {
+    "text": "What is the plot for Alien?",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.49371624276404125
+    }
+  },
+  {
+    "text": "give me the plot for Match Point",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.5101823126983301
+    }
+  },
+  {
+    "text": "what is The Dead Do not Die about?",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.43958992243668904
+    }
+  },
+  {
+    "text": "overview for Terminator: Dark Fate",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.7481122363534077
+    }
+  },
+  {
+    "text": "What can you find me directed by [Guillermo del Toro](director?",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "search_movie_actors",
+      "confidence": 0.2801677021850528
+    }
+  },
+  {
+    "text": "When was Zombieland out?",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_movie_actors",
+      "confidence": 0.4794969588093839
+    }
+  },
+  {
+    "text": "give me the summary of Maleficient: Mistress of Evil.",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.5110748715720356
+    }
+  },
+  {
+    "text": "titles by some dude",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "search_movie_actors",
+      "confidence": 0.5320221661072045
+    }
+  }
+]

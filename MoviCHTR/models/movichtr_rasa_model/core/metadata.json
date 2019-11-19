@@ -1,0 +1,64 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "actor",
+        "release",
+        "director",
+        "movie_title"
+      ]
+    },
+    "action_search_similar_movies": {
+      "slots": []
+    },
+    "action_movie_search_by_director": {
+      "slots": []
+    },
+    "action_search_release_year_for_movie": {
+      "slots": []
+    },
+    "action_search_movie_actors": {
+      "slots": []
+    },
+    "action_search_rating_for_movie": {
+      "slots": []
+    },
+    "action_search_movie_director": {
+      "slots": []
+    },
+    "action_movie_search_by_actor": {
+      "slots": []
+    },
+    "utter_introduction": {
+      "slots": []
+    },
+    "action_search_overview_for_movie": {
+      "slots": []
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_search_popularity_by_year": {
+      "slots": []
+    }
+  },
+  "python": "3.7.5",
+  "max_histories": [
+    5,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa.core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa.core.policies.memoization.MemoizationPolicy",
+    "rasa.core.policies.keras_policy.KerasPolicy",
+    "rasa.core.policies.mapping_policy.MappingPolicy"
+  ],
+  "trained_at": "20191112-103113",
+  "rasa": "1.4.3",
+  "tensorflow": "1.14.0",
+  "sklearn": "0.20.4"
+}

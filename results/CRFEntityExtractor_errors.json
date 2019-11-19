@@ -1,0 +1,164 @@
+[
+  {
+    "text": "movies directed by Woody Allen",
+    "entities": [
+      {
+        "start": 19,
+        "end": 30,
+        "value": "Woody Allen",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 19,
+        "end": 30,
+        "value": "Woody Allen",
+        "entity": "actor",
+        "confidence": 0.9687390671421406,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "movies by Woody Allen",
+    "entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "Woody Allen",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "Woody Allen",
+        "entity": "actor",
+        "confidence": 0.969523138693988,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What is the director Woody Allen known for",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "Woody Allen",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "Woody Allen",
+        "entity": "actor",
+        "confidence": 0.9632257623792821,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find movies by Woody Allen",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "Woody Allen",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "Woody Allen",
+        "entity": "actor",
+        "confidence": 0.9695052633887293,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "get me a movie by Woody Allen",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "Woody Allen",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "Woody Allen",
+        "entity": "actor",
+        "confidence": 0.9692868205116076,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me movies by Guillermo del Toro",
+    "entities": [
+      {
+        "start": 18,
+        "end": 36,
+        "value": "Guillermo del Toro",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Give me a movie by Guillermo del Toro",
+    "entities": [
+      {
+        "start": 19,
+        "end": 37,
+        "value": "Guillermo del Toro",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is the director Woody Allen known for",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "Woody Allen",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "Woody Allen",
+        "entity": "actor",
+        "confidence": 0.9632257623792821,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "when was the shining released",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "the shining",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

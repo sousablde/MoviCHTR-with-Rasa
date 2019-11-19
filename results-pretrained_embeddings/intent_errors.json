@@ -1,0 +1,98 @@
+[
+  {
+    "text": "who was Paddington 2 by?",
+    "intent": "search_movie_director",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.4268052875995636
+    }
+  },
+  {
+    "text": "what is the release of Terminator: Dark Fate",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.919391393661499
+    }
+  },
+  {
+    "text": "Hey bot find movies with Woody Allen",
+    "intent": "movie_search_by_actor",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.8115500807762146
+    }
+  },
+  {
+    "text": "Find me movies by Ingmar Bergman",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "movie_search_by_actor",
+      "confidence": 0.7239516377449036
+    }
+  },
+  {
+    "text": "What year did Pulp Fiction come out?",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.2739899456501007
+    }
+  },
+  {
+    "text": "out date for black panther",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.43990978598594666
+    }
+  },
+  {
+    "text": "What is similar to The Lord of the Rings The Two Towers",
+    "intent": "search_similar_movies",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.5099342465400696
+    }
+  },
+  {
+    "text": "what does justin benson have out there?",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.6182339191436768
+    }
+  },
+  {
+    "text": "what is The Dead Do not Die about?",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.9238059520721436
+    }
+  },
+  {
+    "text": "movie like Mystic River",
+    "intent": "search_similar_movies",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.4517688751220703
+    }
+  },
+  {
+    "text": "guy ritchie director",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "search_movie_director",
+      "confidence": 0.6605290770530701
+    }
+  },
+  {
+    "text": "actors of deep blue",
+    "intent": "search_movie_actors",
+    "intent_prediction": {
+      "name": "search_similar_movies",
+      "confidence": 0.3848719000816345
+    }
+  }
+]

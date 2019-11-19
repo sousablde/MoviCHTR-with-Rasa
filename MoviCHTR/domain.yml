@@ -1,0 +1,89 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- bye
+- movie_search_by_actor
+- movie_search_by_director
+- release_year_search_by_movie
+- search_overview_for_movie
+- search_rating_for_movie
+- search_popularity_by_year
+- search_movie_director
+- search_movie_actors
+- search_similar_movies
+- get_introduction
+entities:
+- movie_title
+- director
+- actor
+- release
+slots:
+  actor:
+    type: text
+  director:
+    type: text
+  movie_title:
+    type: text
+  release:
+    type: text
+templates:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_movie_search_by_actor:
+  - text: I'm ready to search for movies with {actor}
+  utter_movie_search_by_director:
+  - text: Let me find movies directed by {director}
+  utter_search_release_year_for_movie:
+  - text: I'm checking when {movie_title} was released
+  utter_search_overview_for_movie:
+  - text: Looking for the plot of {movie_title}
+  utter_search_rating_for_movie:
+  - text: Looking for the rating of {movie_title}
+  utter_search_popularity_by_year:
+  - text: Looking for popular movies from {release}
+  utter_search_movie_director:
+  - text: Looking for the director of {movie_title}
+  utter_search_movie_actors:
+  - text: Looking for who acted in {movie_title}
+  utter_search_similar_movies:
+  - text: Looking for similar movies to {movie_title}
+  utter_introduction:
+  - text: hi! I am MoviCHTR. I can search movies by director, actor, get you a release
+      date or rating using a chosen title. I am even trying to learn movie popularity
+      based on a particular year
+  utter_bye:
+  - text: Bye
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_bye
+- action_movie_search_by_actor
+- utter_movie_search_by_actor
+- action_movie_search_by_director
+- utter_movie_search_by_director
+- action_search_release_year_for_movie
+- utter_search_release_year_for_movie
+- action_search_overview_for_movie
+- utter_search_overview_for_movie
+- action_search_rating_for_movie
+- utter_search_rating_for_movie
+- action_search_popularity_by_year
+- utter_search_popularity_by_year
+- action_search_movie_director
+- utter_search_movie_director
+- action_search_movie_actors
+- utter_search_movie_actors
+- action_search_similar_movies
+- utter_search_similar_movies
+- utter_introduction

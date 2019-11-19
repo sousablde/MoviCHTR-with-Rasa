@@ -1,0 +1,252 @@
+[
+  {
+    "text": "give me the overview for The Art of Self Defense",
+    "entities": [
+      {
+        "start": 25,
+        "end": 48,
+        "value": "The Art of Self Defense",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "the art",
+        "entity": "movie_title",
+        "confidence": 0.5709609467517284,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 48,
+        "value": "self defense",
+        "entity": "movie_title",
+        "confidence": 0.8017872346767911,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What has Ridley Scott directed?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "Ridley Scott",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "let me know when was I am not a witch released?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 37,
+        "value": "I am not a witch",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is Kramer vs Kramer about?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 24,
+        "value": "Kramer vs Kramer",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "movie by beach dude from ocean beach",
+    "entities": [
+      {
+        "start": 9,
+        "end": 36,
+        "value": "beach dude from ocean beach",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "beach dude",
+        "entity": "director",
+        "confidence": 0.6216361618507152,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What year did Pulp Fiction come out?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 26,
+        "value": "Pulp Fiction",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is the plot for Alien?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "Alien",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Who starred in It Follows?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "It Follows",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what does justin benson have out there?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "value": "justin benson",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Find titles by Oliver Stone.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "Oliver Stone",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What was The devil wears Prada released",
+    "entities": [
+      {
+        "start": 9,
+        "end": 30,
+        "value": "The devil wears Prada",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "value": "the devil wears",
+        "entity": "movie_title",
+        "confidence": 0.3456083032565726,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Who acted in What We Do in the Shadows",
+    "entities": [
+      {
+        "start": 13,
+        "end": 38,
+        "value": "What We Do in the Shadows",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 27,
+        "end": 38,
+        "value": "the shadows",
+        "entity": "movie_title",
+        "confidence": 0.9802563604534412,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What can you find me directed by [Guillermo del Toro](director?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 34,
+        "value": "[",
+        "entity": "director",
+        "confidence": 0.3757216046615687,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "When was Zombieland out?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Zombieland",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give me the summary of Maleficient: Mistress of Evil.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 52,
+        "value": "Maleficient: Mistress of Evil",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give me the release of Tigers Are Not Afraid",
+    "entities": [
+      {
+        "start": 23,
+        "end": 44,
+        "value": "Tigers Are Not Afraid",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "stars in The revenant?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "The revenant",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,568 @@
+[
+  {
+    "text": "where did Philip Seymour Hoffman act in",
+    "entities": [
+      {
+        "start": 10,
+        "end": 32,
+        "value": "Philip Seymour Hoffman",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is Kramer vs Kramer about?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 24,
+        "value": "Kramer vs Kramer",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Joker was directed by who?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Joker",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who was Paddington 2 by?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "value": "Paddington 2",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "paddington",
+        "entity": "movie_title",
+        "confidence": 0.3999626518732158,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Find movie with John Travolta and Uma Thurman",
+    "entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "value": "John Travolta",
+        "entity": "actor"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "value": "Uma Thurman",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 45,
+        "value": "john travolta and uma thurman",
+        "entity": "actor",
+        "confidence": 0.4556810744280298,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me movies by Brad Pitt",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "Brad Pitt",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "brad pitt",
+        "entity": "director",
+        "confidence": 0.4395221623086837,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What year did Pulp Fiction come out?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 26,
+        "value": "Pulp Fiction",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Who starred in It Follows?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "It Follows",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 17,
+        "value": "it",
+        "entity": "movie_title",
+        "confidence": 0.46755336889760324,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Who acted in What We Do in the Shadows",
+    "entities": [
+      {
+        "start": 13,
+        "end": 38,
+        "value": "What We Do in the Shadows",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 27,
+        "end": 38,
+        "value": "the shadows",
+        "entity": "movie_title",
+        "confidence": 0.971465815342241,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "movies performed by jean reno",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "jean reno",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "jean reno",
+        "entity": "director",
+        "confidence": 0.6282345718718712,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What is the director Woody Allen known for",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "Woody Allen",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is the director Woody Allen known for",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "Woody Allen",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give me the summary of Maleficient: Mistress of Evil.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 52,
+        "value": "Maleficient: Mistress of Evil",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who was the director of I am not a witch",
+    "entities": [
+      {
+        "start": 24,
+        "end": 40,
+        "value": "I am not a witch",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 40,
+        "value": "the director of i am not a witch",
+        "entity": "movie_title",
+        "confidence": 0.6967305012677809,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Let me know the director of Matrix",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "Matrix",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What was the release of Patriot Games",
+    "entities": [
+      {
+        "start": 24,
+        "end": 37,
+        "value": "Patriot Games",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 9,
+        "end": 37,
+        "value": "the release of patriot games",
+        "entity": "movie_title",
+        "confidence": 0.5625990109960293,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Who directed Terminator",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "Terminator",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who directed The Ballad of Buster Scruggs?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 41,
+        "value": "The Ballad of Buster Scruggs",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 33,
+        "value": "the ballad of buster",
+        "entity": "movie_title",
+        "confidence": 0.6682853774893316,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "In which movie Johny Depp shot?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "Johny Depp",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Where did Robert De Niro star in?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "Robert De Niro",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "When was Zombieland out?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Zombieland",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Leave No Trace was by who?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Leave No Trace",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "suggest something like No Country for Old Men",
+    "entities": [
+      {
+        "start": 23,
+        "end": 45,
+        "value": "No Country for Old Men",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 38,
+        "end": 45,
+        "value": "old men",
+        "entity": "movie_title",
+        "confidence": 0.7737610252604842,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What can you find me directed by [Guillermo del Toro](director?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 33,
+        "end": 43,
+        "value": "[guillermo",
+        "entity": "director",
+        "confidence": 0.5654646092175686,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "movie by beach dude from ocean beach",
+    "entities": [
+      {
+        "start": 9,
+        "end": 36,
+        "value": "beach dude from ocean beach",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "beach dude",
+        "entity": "director",
+        "confidence": 0.5640033775926432,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "release for a house in the prairie",
+    "entities": [
+      {
+        "start": 12,
+        "end": 34,
+        "value": "a house in the prairie",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 34,
+        "value": "the prairie",
+        "entity": "movie_title",
+        "confidence": 0.9688876525400479,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Who directed the film Snatch?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "Snatch",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 28,
+        "value": "the film snatch",
+        "entity": "movie_title",
+        "confidence": 0.6778893295285605,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "movies similar to Heat",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "Heat",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "where did Anna Nab star in?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "Anna Nab",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Movies with Daniel Day-Lewis",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "Daniel Day-Lewis",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "guy ritchie director",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "guy ritchie",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "When was se7en released",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "se7en",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who directed New York New York?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 30,
+        "value": "New York New York",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hey bot find movies with Woody Allen",
+    "entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "Woody Allen",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "woody allen",
+        "entity": "director",
+        "confidence": 0.8795370414536648,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what does justin benson have out there?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "value": "justin benson",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Filmworker director.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Filmworker",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

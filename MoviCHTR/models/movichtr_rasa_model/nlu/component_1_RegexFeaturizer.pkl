@@ -1,0 +1,18 @@
+[
+    {
+        "name": "release",
+        "pattern": "[0-9]{4}"
+    },
+    {
+        "name": "movie_title",
+        "pattern": "(?i)(\\bAlien\\b|\\bZombieland\\b|\\bCoco\\b|\\bThe\\ Silence\\ of\\ the\\ Lambs\\b|\\bAce\\ Ventura\\ Pet\\ Detective\\b|\\bMystic\\ River\\b|\\bGangs\\ of\\ New\\ York\\b|\\bThe\\ Lord\\ of\\ the\\ Rings\\ The\\ Two\\ Towers\\b|\\bHeat\\b|\\bNo\\ Country\\ for\\ Old\\ Men\\b|\\bMatch\\ Point\\b|\\bThe\\ Hateful\\ Eight\\b|\\bSicario\\b|\\bInside\\ Out\\b|\\bSlow\\ West\\b|\\bThe\\ revenant\\b|\\bEx\\ Machina\\b|\\bThe\\ big\\ short\\b|\\bThe\\ Ballad\\ of\\ Buster\\ Scruggs\\b|\\bPaddington\\ 2\\b|\\bFilmworker\\b|\\bLeave\\ No\\ Trace\\b|\\bJoker\\b|\\bMission\\ Impossible\\ Fallout\\b|\\bI\\ am\\ not\\ a\\ witch\\b|\\bMaleficient\\ Mistress\\ of\\ Evil\\b|\\bAvengers\\ Endgame\\b|\\bSe7en\\b|\\bBlade\\ Runner\\ 2049\\b|\\bSpider\\-Man:\\ Far\\ from\\ home\\b|\\bTigers\\ Are\\ Not\\ Afraid\\b)"
+    },
+    {
+        "name": "actors",
+        "pattern": "(?i)(\\bJohn\\ Travolta\\b|\\bBrad\\ Pitt\\b|\\bJohny\\ Depp\\b|\\bWoody\\ Allen\\b|\\bMadonna\\b|\\bSting\\b|\\bAnna\\ Nab\\b|\\bDaniel\\ Day\\-Lewis\\b|\\bRobert\\ De\\ Niro\\b|\\bPhilip\\ Seymour\\ Hoffman\\b)"
+    },
+    {
+        "name": "director",
+        "pattern": "(?i)(\\bQuentin\\ Tarantino\\b|\\bGuillermo\\ del\\ Toro\\b|\\bRidley\\ Scott\\b|\\bOliver\\ Stone\\b|\\bMartin\\ Scorcese\\b|\\bIngmar\\ Bergman\\b|\\bjustin\\ benson\\b|\\bAaron\\ Moorhead\\b|\\bsome\\ dude\\b|\\bbeach\\ dude\\ from\\ ocean\\ beach\\b|\\bFrancis\\ Ford\\ Coppola\\b)"
+    }
+]

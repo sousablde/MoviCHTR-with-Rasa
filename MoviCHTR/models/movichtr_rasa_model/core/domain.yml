@@ -1,0 +1,130 @@
+actions:
+- action_movie_search_by_actor
+- action_movie_search_by_director
+- action_search_movie_actors
+- action_search_movie_director
+- action_search_overview_for_movie
+- action_search_popularity_by_year
+- action_search_rating_for_movie
+- action_search_release_year_for_movie
+- action_search_similar_movies
+- utter_bye
+- utter_cheer_up
+- utter_did_that_help
+- utter_greet
+- utter_happy
+- utter_introduction
+- utter_movie_search_by_actor
+- utter_movie_search_by_director
+- utter_search_movie_actors
+- utter_search_movie_director
+- utter_search_overview_for_movie
+- utter_search_popularity_by_year
+- utter_search_rating_for_movie
+- utter_search_release_year_for_movie
+- utter_search_similar_movies
+config:
+  store_entities_as_slots: true
+entities:
+- actor
+- director
+- movie_title
+- release
+forms: []
+intents:
+- greet:
+    ignore_entities: []
+    use_entities: true
+- goodbye:
+    ignore_entities: []
+    use_entities: true
+- affirm:
+    ignore_entities: []
+    use_entities: true
+- deny:
+    ignore_entities: []
+    use_entities: true
+- bye:
+    ignore_entities: []
+    use_entities: true
+- movie_search_by_actor:
+    ignore_entities: []
+    use_entities: true
+- movie_search_by_director:
+    ignore_entities: []
+    use_entities: true
+- release_year_search_by_movie:
+    ignore_entities: []
+    use_entities: true
+- search_overview_for_movie:
+    ignore_entities: []
+    use_entities: true
+- search_rating_for_movie:
+    ignore_entities: []
+    use_entities: true
+- search_popularity_by_year:
+    ignore_entities: []
+    use_entities: true
+- search_movie_director:
+    ignore_entities: []
+    use_entities: true
+- search_movie_actors:
+    ignore_entities: []
+    use_entities: true
+- search_similar_movies:
+    ignore_entities: []
+    use_entities: true
+- get_introduction:
+    ignore_entities: []
+    use_entities: true
+slots:
+  actor:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  director:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  movie_title:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  release:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+templates:
+  utter_bye:
+  - text: Bye
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_introduction:
+  - text: hi! I am MoviCHTR. I can search movies by director, actor, get you a release
+      date or rating using a chosen title. I am even trying to learn movie popularity
+      based on a particular year
+  utter_movie_search_by_actor:
+  - text: I'm ready to search for movies with {actor}
+  utter_movie_search_by_director:
+  - text: Let me find movies directed by {director}
+  utter_search_movie_actors:
+  - text: Looking for who acted in {movie_title}
+  utter_search_movie_director:
+  - text: Looking for the director of {movie_title}
+  utter_search_overview_for_movie:
+  - text: Looking for the plot of {movie_title}
+  utter_search_popularity_by_year:
+  - text: Looking for popular movies from {release}
+  utter_search_rating_for_movie:
+  - text: Looking for the rating of {movie_title}
+  utter_search_release_year_for_movie:
+  - text: I'm checking when {movie_title} was released
+  utter_search_similar_movies:
+  - text: Looking for similar movies to {movie_title}

@@ -1,0 +1,203 @@
+[
+  {
+    "text": "movie by beach dude from ocean beach",
+    "entities": [
+      {
+        "start": 9,
+        "end": 36,
+        "value": "beach dude from ocean beach",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "release date for roma",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "roma",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "overview for hp laptop",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "hp laptop",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "When was Zombieland out?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Zombieland",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "titles by some dude",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "some dude",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give me the overview for The Art of Self Defense",
+    "entities": [
+      {
+        "start": 25,
+        "end": 48,
+        "value": "The Art of Self Defense",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "The Art",
+        "entity": "movie_title",
+        "confidence": 0.9540748289071304,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 48,
+        "value": "Self Defense",
+        "entity": "movie_title",
+        "confidence": 0.9174792185347906,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which actors in the martian",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "value": "the martian",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What can you find me directed by [Guillermo del Toro](director?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 62,
+        "value": "Guillermo del Toro](director",
+        "entity": "director",
+        "confidence": 0.4942878988986526,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "let me know when was I am not a witch released?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 37,
+        "value": "I am not a witch",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what does justin benson have out there?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "value": "justin benson",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What has Ridley Scott directed?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "Ridley Scott",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 9,
+        "end": 30,
+        "value": "Ridley Scott directed",
+        "entity": "movie_title",
+        "confidence": 0.5134461315409582,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What year did Pulp Fiction come out?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 26,
+        "value": "Pulp Fiction",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Who acted in What We Do in the Shadows",
+    "entities": [
+      {
+        "start": 13,
+        "end": 38,
+        "value": "What We Do in the Shadows",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "What We",
+        "entity": "movie_title",
+        "confidence": 0.491453397456351,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 27,
+        "end": 38,
+        "value": "the Shadows",
+        "entity": "movie_title",
+        "confidence": 0.8974083725397689,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "search_overview_for_movie": {
+    "precision": 0.42857142857142855,
+    "recall": 0.3,
+    "f1-score": 0.3529411764705882,
+    "support": 10
+  },
+  "movie_search_by_director": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 10
+  },
+  "release_year_search_by_movie": {
+    "precision": 0.5384615384615384,
+    "recall": 0.5384615384615384,
+    "f1-score": 0.5384615384615384,
+    "support": 13
+  },
+  "search_movie_actors": {
+    "precision": 0.7142857142857143,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8,
+    "support": 11
+  },
+  "micro avg": {
+    "precision": 0.6363636363636364,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.6363636363636364,
+    "support": 44
+  },
+  "macro avg": {
+    "precision": 0.6203296703296703,
+    "recall": 0.6368881118881119,
+    "f1-score": 0.6228506787330317,
+    "support": 44
+  },
+  "weighted avg": {
+    "precision": 0.6168831168831169,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.6211229946524065,
+    "support": 44
+  }
+}

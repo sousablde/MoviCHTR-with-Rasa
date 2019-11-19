@@ -1,0 +1,258 @@
+[
+  {
+    "text": "give me the overview for The Art of Self Defense",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.35602832607763124
+    }
+  },
+  {
+    "text": "Joker was directed by who?",
+    "intent": "search_movie_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.39722162856048243
+    }
+  },
+  {
+    "text": "who was Paddington 2 by?",
+    "intent": "search_movie_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.5678110801907467
+    }
+  },
+  {
+    "text": "give me movies by Brad Pitt",
+    "intent": "movie_search_by_actor",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.6086600745328591
+    }
+  },
+  {
+    "text": "What year did Pulp Fiction come out?",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.5179659489427507
+    }
+  },
+  {
+    "text": "give me the release for the favourite.",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.5147472167423139
+    }
+  },
+  {
+    "text": "plot for skills matter",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "movie_search_by_actor",
+      "confidence": 0.2800932082098681
+    }
+  },
+  {
+    "text": "movies performed by jean reno",
+    "intent": "movie_search_by_actor",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.6711683143442324
+    }
+  },
+  {
+    "text": "What is the director Woody Allen known for",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.7294068309723117
+    }
+  },
+  {
+    "text": "What is the director Woody Allen known for",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.7294068309723117
+    }
+  },
+  {
+    "text": "give me the summary of Maleficient: Mistress of Evil.",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "search_movie_director",
+      "confidence": 0.2907704257096497
+    }
+  },
+  {
+    "text": "who was the director of I am not a witch",
+    "intent": "search_movie_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.5854831229328217
+    }
+  },
+  {
+    "text": "Let me know the director of Matrix",
+    "intent": "search_movie_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.33546996726668005
+    }
+  },
+  {
+    "text": "Starring in Spotlight",
+    "intent": "search_movie_actors",
+    "intent_prediction": {
+      "name": "movie_search_by_actor",
+      "confidence": 0.46250118409803487
+    }
+  },
+  {
+    "text": "movie like Mystic River",
+    "intent": "search_similar_movies",
+    "intent_prediction": {
+      "name": "movie_search_by_actor",
+      "confidence": 0.332257445143487
+    }
+  },
+  {
+    "text": "What is the movie with Brad Pitt",
+    "intent": "movie_search_by_actor",
+    "intent_prediction": {
+      "name": "search_similar_movies",
+      "confidence": 0.21771830198805492
+    }
+  },
+  {
+    "text": "out date for black panther",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.27964449128524793
+    }
+  },
+  {
+    "text": "What was the release of Patriot Games",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_movie_director",
+      "confidence": 0.3800605450975359
+    }
+  },
+  {
+    "text": "what is the plot for Coco",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.4061240417561413
+    }
+  },
+  {
+    "text": "In which movie Johny Depp shot?",
+    "intent": "movie_search_by_actor",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.29285408549077924
+    }
+  },
+  {
+    "text": "Leave No Trace was by who?",
+    "intent": "search_movie_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.48070882975257434
+    }
+  },
+  {
+    "text": "titles by some dude",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "search_movie_actors",
+      "confidence": 0.4512312220679056
+    }
+  },
+  {
+    "text": "What is the plot for Alien?",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.3580976684535627
+    }
+  },
+  {
+    "text": "Get me the director of Mission Impossible Fallout",
+    "intent": "search_movie_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.274589674495765
+    }
+  },
+  {
+    "text": "What can you find me directed by [Guillermo del Toro](director?",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "search_movie_director",
+      "confidence": 0.22390761741688608
+    }
+  },
+  {
+    "text": "what is The Dead Do not Die about?",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "movie_search_by_director",
+      "confidence": 0.33760719688019253
+    }
+  },
+  {
+    "text": "give me the release of Tigers Are Not Afraid",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.25412332160931067
+    }
+  },
+  {
+    "text": "overview for Terminator: Dark Fate",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.6871327480898722
+    }
+  },
+  {
+    "text": "where did Anna Nab star in?",
+    "intent": "movie_search_by_actor",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.5327899692241973
+    }
+  },
+  {
+    "text": "guy ritchie director",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "movie_search_by_actor",
+      "confidence": 0.5320790188667802
+    }
+  },
+  {
+    "text": "which movies are similar to The Silence of the Lambs",
+    "intent": "search_similar_movies",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.2601514486632517
+    }
+  },
+  {
+    "text": "actors of deep blue",
+    "intent": "search_movie_actors",
+    "intent_prediction": {
+      "name": "search_similar_movies",
+      "confidence": 0.6867105015936255
+    }
+  }
+]

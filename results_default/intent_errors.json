@@ -1,0 +1,50 @@
+[
+  {
+    "text": "when was The Dead Do not Die out?",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.54945969581604
+    }
+  },
+  {
+    "text": "What is the plot for Alien?",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.5144639611244202
+    }
+  },
+  {
+    "text": "what is the release of Terminator: Dark Fate",
+    "intent": "release_year_search_by_movie",
+    "intent_prediction": {
+      "name": "search_overview_for_movie",
+      "confidence": 0.9948760867118835
+    }
+  },
+  {
+    "text": "what does justin benson have out there?",
+    "intent": "movie_search_by_director",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.5172210931777954
+    }
+  },
+  {
+    "text": "what is The Dead Do not Die about?",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.9904926419258118
+    }
+  },
+  {
+    "text": "give me the summary of Maleficient: Mistress of Evil.",
+    "intent": "search_overview_for_movie",
+    "intent_prediction": {
+      "name": "release_year_search_by_movie",
+      "confidence": 0.8365685343742371
+    }
+  }
+]

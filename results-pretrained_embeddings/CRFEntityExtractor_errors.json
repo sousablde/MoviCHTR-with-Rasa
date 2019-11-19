@@ -1,0 +1,432 @@
+[
+  {
+    "text": "What can you find me directed by [Guillermo del Toro](director?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 34,
+        "end": 47,
+        "value": "Guillermo del",
+        "entity": "director",
+        "confidence": 0.36125388356478194,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "titles by some dude",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "some dude",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "release for a house in the prairie",
+    "entities": [
+      {
+        "start": 12,
+        "end": 34,
+        "value": "a house in the prairie",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 34,
+        "value": "the prairie",
+        "entity": "movie_title",
+        "confidence": 0.8202486726459935,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "overview for hp laptop",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "hp laptop",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Leave No Trace was by who?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Leave No Trace",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Find me a movie with Madonna",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "Madonna",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "Madonna",
+        "entity": "movie_title",
+        "confidence": 0.5756553741992111,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "where did Philip Seymour Hoffman act in",
+    "entities": [
+      {
+        "start": 10,
+        "end": 32,
+        "value": "Philip Seymour Hoffman",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 10,
+        "end": 32,
+        "value": "Philip Seymour Hoffman",
+        "entity": "movie_title",
+        "confidence": 0.5956633777951335,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "movie by beach dude from ocean beach",
+    "entities": [
+      {
+        "start": 9,
+        "end": 36,
+        "value": "beach dude from ocean beach",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "when was the shining released",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "the shining",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Filmworker director.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Filmworker",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Find movie with John Travolta and Uma Thurman",
+    "entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "value": "John Travolta",
+        "entity": "actor"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "value": "Uma Thurman",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 45,
+        "value": "John Travolta and Uma Thurman",
+        "entity": "actor",
+        "confidence": 0.4931084247562245,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Hey bot find movies with Woody Allen",
+    "entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "Woody Allen",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "Woody Allen",
+        "entity": "director",
+        "confidence": 0.8311048856281533,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "when was alien released",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "alien",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "When was se7en released",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "se7en",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Where did Robert De Niro star in?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "Robert De Niro",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "Robert De Niro",
+        "entity": "movie_title",
+        "confidence": 0.5808106667093683,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "movies performed by jean reno",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "jean reno",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "In which movie Johny Depp shot?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "Johny Depp",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 15,
+        "end": 30,
+        "value": "Johny Depp shot",
+        "entity": "movie_title",
+        "confidence": 0.6386187979574518,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me the release for the favourite.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 37,
+        "value": "the favourite",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which actors in the martian",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "value": "the martian",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Who directed the film Snatch?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "Snatch",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "suggest something like No Country for Old Men",
+    "entities": [
+      {
+        "start": 23,
+        "end": 45,
+        "value": "No Country for Old Men",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 23,
+        "end": 33,
+        "value": "No Country",
+        "entity": "movie_title",
+        "confidence": 0.5687546702168943,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "value": "Old Men",
+        "entity": "movie_title",
+        "confidence": 0.9017471495817845,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me movies by Brad Pitt",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "Brad Pitt",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "Brad Pitt",
+        "entity": "director",
+        "confidence": 0.5871329072215391,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "plot for skills matter",
+    "entities": [
+      {
+        "start": 9,
+        "end": 22,
+        "value": "skills matter",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what does justin benson have out there?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "value": "justin benson",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "movie directed by Francis Ford Coppola",
+    "entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "value": "Francis Ford Coppola",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "value": "Francis Ford Coppola",
+        "entity": "movie_title",
+        "confidence": 0.5283808455619678,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "guy ritchie director",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "guy ritchie",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Joker was directed by who?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Joker",
+        "entity": "movie_title"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

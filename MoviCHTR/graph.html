@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rasa Core Visualisation</title>
+    <script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+    <script src="https://dagrejs.github.io/project/dagre/latest/dagre.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://dagrejs.github.io/project/graphlib-dot/v0.6.3/graphlib-dot.js"></script>
+</head>
+<body>
+<div id="errormsg" style="color: #b00"></div>
+<svg>
+    <style>
+        .node.invisible > rect {
+            display: none;
+        }
+
+        .node.start > rect {
+            fill: #7f7;
+            rx: 30;
+            ry: 18;
+        }
+
+        .node.end > rect {
+            fill: #f77;
+            rx: 30;
+            ry: 18;
+        }
+
+        .node:not(.active) > rect, .node:not(.active) > .label {
+            opacity: 0.4;
+        }
+
+        .edgePath:not(.active) path {
+            opacity: 0.4;
+        }
+
+        .node.ellipsis > rect {
+            fill: #CCC;
+        }
+
+        .node.intent > rect {
+            fill: #7ff;
+        }
+
+        .node.dashed > rect {
+            stroke-dasharray: 5;
+        }
+
+        text {
+            font-weight: 300;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serf, serif;
+            font-size: 14px;
+            color: #1f1d1d;
+        }
+
+        .node rect {
+            stroke: #444;
+            fill: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .edgePath path {
+            stroke: #333;
+            stroke-width: 1.5px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 0;
+            height: 100%;
+            width: 100%
+        }
+    </style>
+    <g></g>
+</svg>
+<script>
+
+  function serveGraph() {
+    let oldInputGraphValue;
+
+    const url = 'visualization.dot';
+    const refreshInterval = 500;
+
+    // trigger a refresh by fetching an updated graph
+    setInterval(function () {
+      fetch(url).then(r => r.text()).then(dot => {
+        document.getElementById('errormsg').innerHTML = '';
+        if (oldInputGraphValue === dot) return;
+
+        oldInputGraphValue = dot;
+        drawGraph(dot);
+      }).catch(err => {
+        document.getElementById('errormsg').innerHTML =
+          'Failed to update plot. (' + err.message + ')';
+      });
+    }, refreshInterval);
+  }
+
+  function drawGraph(graph) {
+    let g = graphlibDot.read(graph);
+    // Set margins, if not present
+    if (!g.graph().hasOwnProperty("marginx") &&
+      !g.graph().hasOwnProperty("marginy")) {
+      g.graph().marginx = 20;
+      g.graph().marginy = 20;
+    }
+    g.graph().transition = function (selection) {
+      return selection.transition().duration(300);
+    };
+    // Render the graph into svg g
+    d3.select("svg g").call(render, g);
+  }
+  // Set up zoom support
+  const svg = d3.select("svg"),
+    inner = d3.select("svg g"),
+    zoom = d3.zoom().on("zoom", function () {
+      inner.attr("transform", d3.event.transform);
+    });
+  svg.call(zoom);
+
+  // Create and configure the renderer
+  const render = dagreD3.render();
+
+  let isClient = false;
+  isClient = true;
+
+  if (isClient) {
+    // Mark all nodes and their edges as active
+    cssRules = document.styleSheets[0].cssRules;
+    cssRules[3].style.opacity = 1;
+    cssRules[4].style.opacity = 1;
+
+    let graph;
+    graph = `digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class="", fontsize=12, label=utter_search_movie_actors];
+2 [class="", fontsize=12, label=action_search_movie_actors];
+3 [class="", fontsize=12, label=utter_introduction];
+4 [class="", fontsize=12, label=utter_bye];
+5 [class="", fontsize=12, label=utter_greet];
+6 [class="", fontsize=12, label=utter_introduction];
+7 [class="", fontsize=12, label=utter_movie_search_by_director];
+8 [class="", fontsize=12, label=action_movie_search_by_director];
+14 [class="", fontsize=12, label=utter_movie_search_by_actor];
+15 [class="", fontsize=12, label=action_movie_search_by_actor];
+16 [class="", fontsize=12, label=utter_search_release_year_for_movie];
+17 [class="", fontsize=12, label=action_search_release_year_for_movie];
+18 [class="", fontsize=12, label=utter_search_rating_for_movie];
+19 [class="", fontsize=12, label=action_search_rating_for_movie];
+26 [class="", fontsize=12, label=utter_search_overview_for_movie];
+27 [class="", fontsize=12, label=action_search_overview_for_movie];
+56 [class="", fontsize=12, label=utter_search_popularity_by_year];
+57 [class="", fontsize=12, label=action_search_popularity_by_year];
+60 [class="", fontsize=12, label=utter_search_movie_director];
+61 [class="", fontsize=12, label=action_search_movie_director];
+74 [class="", fontsize=12, label=utter_greet];
+90 [class=intent, fillcolor=lightblue, label="Who acted in What We Do in the Shadows", shape=rect, style=filled];
+91 [class=intent, fillcolor=lightblue, label="What do you do?", shape=rect, style=filled];
+92 [class=intent, fillcolor=lightblue, label=Bye, shape=rect, style=filled];
+93 [class=intent, fillcolor=lightblue, label="good evening", shape=rect, style=filled];
+94 [class=intent, fillcolor=lightblue, label="What has Ridley Scott directed?", shape=rect, style=filled];
+95 [class=intent, fillcolor=lightblue, label="Find me a movie with Madonna", shape=rect, style=filled];
+96 [class=intent, fillcolor=lightblue, label="what is the release of Terminator: Dark Fate", shape=rect, style=filled];
+97 [class=intent, fillcolor=lightblue, label="give me the rating for Spider-Man: Far from home", shape=rect, style=filled];
+98 [class=intent, fillcolor=lightblue, label="give me the overview for The Art of Self Defense", shape=rect, style=filled];
+99 [class=intent, fillcolor=lightblue, label="Give popular movies of 1999", shape=rect, style=filled];
+100 [class=intent, fillcolor=lightblue, label="Leave No Trace was by who?", shape=rect, style=filled];
+101 [class=intent, fillcolor=lightblue, label=Bbye, shape=rect, style=filled];
+102 [class=intent, fillcolor=lightblue, label="how to use you?", shape=rect, style=filled];
+103 [class=intent, fillcolor=lightblue, label="/movie_search_by_director{\\"director\\":\\"Stanley Kubrick\\"}", shape=rect, style=filled];
+104 [class=intent, fillcolor=lightblue, label="/movie_search_by_actor{\\"actor\\":\\"Jennifer Lawrence\\"}", shape=rect, style=filled];
+105 [class=intent, fillcolor=lightblue, label="/search_overview_for_movie{\\"movie_title\\":\\"alien\\"}", shape=rect, style=filled];
+106 [class=intent, fillcolor=lightblue, label="/search_movie_actors{\\"movie_title\\":\\"Fight Club\\"}", shape=rect, style=filled];
+107 [class=intent, fillcolor=lightblue, label="When was Alien released?", shape=rect, style=filled];
+108 [class=intent, fillcolor=lightblue, label="/search_overview_for_movie{\\"movie_title\\":\\"The Shining\\"}", shape=rect, style=filled];
+109 [class=intent, fillcolor=lightblue, label="/release_year_search_by_movie{\\"movie_title\\":\\"Fight Club\\"}", shape=rect, style=filled];
+110 [class=intent, fillcolor=lightblue, label="Find movie with Brad Pitt", shape=rect, style=filled];
+111 [class=intent, fillcolor=lightblue, label="/search_overview_for_movie{\\"movie_title\\":\\"Se7en\\"}", shape=rect, style=filled];
+112 [class=intent, fillcolor=lightblue, label="/search_rating_for_movie{\\"movie_title\\":\\"The Shining\\"}", shape=rect, style=filled];
+113 [class=intent, fillcolor=lightblue, label="What is the plot for Alien?", shape=rect, style=filled];
+114 [class=intent, fillcolor=lightblue, label="Joker was directed by who?", shape=rect, style=filled];
+115 [class=intent, fillcolor=lightblue, label="/search_overview_for_movie{\\"movie_title\\":\\"Logan\\"}", shape=rect, style=filled];
+116 [class=intent, fillcolor=lightblue, label="What is the rating for Alien", shape=rect, style=filled];
+117 [class=intent, fillcolor=lightblue, label="/release_year_search_by_movie{\\"movie_title\\":\\"Logan\\"}", shape=rect, style=filled];
+118 [class=intent, fillcolor=lightblue, label="/search_popularity_by_year{\\"release\\":\\"2019\\"}", shape=rect, style=filled];
+119 [class=intent, fillcolor=lightblue, label="/release_year_search_by_movie{\\"movie_title\\":\\"Joker\\"}", shape=rect, style=filled];
+120 [class=intent, fillcolor=lightblue, label="/search_movie_director{\\"movie_title\\":\\"Logan\\"}", shape=rect, style=filled];
+121 [class=intent, fillcolor=lightblue, label="what is The Dead Do not Die about?", shape=rect, style=filled];
+122 [class=intent, fillcolor=lightblue, label="/search_rating_for_movie{\\"movie_title\\":\\"Logan\\"}", shape=rect, style=filled];
+0 -> 74  [class="", key=NONE, label=""];
+0 -> 90  [class="", key=0];
+0 -> 91  [class="", key=0];
+0 -> 92  [class="", key=0];
+0 -> 93  [class="", key=0];
+0 -> 94  [class="", key=0];
+0 -> 95  [class="", key=0];
+0 -> 96  [class="", key=0];
+0 -> 97  [class="", key=0];
+0 -> 98  [class="", key=0];
+0 -> 99  [class="", key=0];
+0 -> 100  [class="", key=0];
+1 -> 2  [class="", key=NONE, label=""];
+2 -> "-1"  [class="", key=NONE, label=""];
+2 -> 101  [class="", key=0];
+3 -> "-1"  [class="", key=NONE, label=""];
+4 -> "-1"  [class="", key=NONE, label=""];
+5 -> "-1"  [class="", key=NONE, label=""];
+5 -> 102  [class="", key=0];
+6 -> 103  [class="", key=0];
+6 -> 104  [class="", key=0];
+6 -> 105  [class="", key=0];
+7 -> 8  [class="", key=NONE, label=""];
+8 -> "-1"  [class="", key=NONE, label=""];
+8 -> 106  [class="", key=0];
+8 -> 107  [class="", key=0];
+8 -> 108  [class="", key=0];
+14 -> 15  [class="", key=NONE, label=""];
+15 -> "-1"  [class="", key=NONE, label=""];
+15 -> 109  [class="", key=0];
+15 -> 110  [class="", key=0];
+15 -> 111  [class="", key=0];
+16 -> 17  [class="", key=NONE, label=""];
+17 -> "-1"  [class="", key=NONE, label=""];
+17 -> 112  [class="", key=0];
+17 -> 113  [class="", key=0];
+17 -> 114  [class="", key=0];
+18 -> 19  [class="", key=NONE, label=""];
+19 -> "-1"  [class="", key=NONE, label=""];
+19 -> 115  [class="", key=0];
+26 -> 27  [class="", key=NONE, label=""];
+27 -> "-1"  [class="", key=NONE, label=""];
+27 -> 116  [class="", key=0];
+27 -> 117  [class="", key=0];
+27 -> 118  [class="", key=0];
+56 -> 57  [class="", key=NONE, label=""];
+57 -> "-1"  [class="", key=NONE, label=""];
+57 -> 119  [class="", key=0];
+57 -> 120  [class="", key=0];
+60 -> 61  [class="", key=NONE, label=""];
+61 -> "-1"  [class="", key=NONE, label=""];
+61 -> 121  [class="", key=0];
+61 -> 122  [class="", key=0];
+74 -> "-1"  [class="", key=NONE, label=""];
+90 -> 1  [class="", key=0];
+91 -> 3  [class="", key=0];
+92 -> 4  [class="", key=0];
+93 -> 5  [class="", key=0];
+94 -> 7  [class="", key=0];
+95 -> 14  [class="", key=0];
+96 -> 16  [class="", key=0];
+97 -> 18  [class="", key=0];
+98 -> 26  [class="", key=0];
+99 -> 56  [class="", key=0];
+100 -> 60  [class="", key=0];
+101 -> 4  [class="", key=0];
+102 -> 6  [class="", key=0];
+103 -> 7  [class="", key=0];
+104 -> 14  [class="", key=0];
+105 -> 26  [class="", key=0];
+106 -> 1  [class="", key=0];
+107 -> 16  [class="", key=0];
+108 -> 26  [class="", key=0];
+109 -> 16  [class="", key=0];
+110 -> 14  [class="", key=0];
+111 -> 26  [class="", key=0];
+112 -> 18  [class="", key=0];
+113 -> 26  [class="", key=0];
+114 -> 60  [class="", key=0];
+115 -> 26  [class="", key=0];
+116 -> 18  [class="", key=0];
+117 -> 16  [class="", key=0];
+118 -> 56  [class="", key=0];
+119 -> 16  [class="", key=0];
+120 -> 60  [class="", key=0];
+121 -> 26  [class="", key=0];
+122 -> 18  [class="", key=0];
+}
+`;
+    drawGraph(graph);
+  } else {
+    serveGraph();
+  }
+
+
+</script>
+</body>
+</html>
