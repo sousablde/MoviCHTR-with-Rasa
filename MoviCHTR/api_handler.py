@@ -3,7 +3,7 @@ import requests
 import json
 
 #Global Variables
-API_KEY = '6b49e5c8d23f64805bba6f86bb2fe4cd'
+API_KEY = 'HIDDEN'
 BASE_URL = 'https://api.themoviedb.org/3/'
 
 #defining subject entity search queries
