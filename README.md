@@ -1,3 +1,5 @@
+
+![MovieCHTR](https://github.com/sousablde/MoviCHTR-with-Rasa/blob/master/MoviCHTR%20Logo.png)
 # MoviCHTR
 ## A conversational bot on movie thematics
 - the bot finds:
